@@ -1,12 +1,12 @@
 Feature: Verify Assign Schedule To And Confirmation From Search Teacher Login
 
   Background:
-    Given Navigate to the Discovery Education
+    Given Navigate to the Education Tech
     When Click on the Educator Button
 
  @test
 Scenario: Verify Assign Schedule To And Confirmation From Search
-    When Login to the Education Tech with "AT_Degi_Teacher13" and "disc0verme"
+    When Login to the Education Tech with "username" and "password"
     Then Verify the Educator lands on the Homepage
     When Unassign the existing assignment in the Assignment manager
     When Enter the "Science Techbook" in the search bar

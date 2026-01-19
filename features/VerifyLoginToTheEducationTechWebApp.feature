@@ -1,12 +1,12 @@
-Feature: Login to the Discovery Education
+Feature: Login to Education Tech
   Background:
-    Given Navigate to the Discovery Education
+    Given Navigate to the Education Tech
     When Click on the Educator Button
 
 Scenario: Login to the Discovery Education as a Teacher
 
-#@@when(parsers.parse('Login to the Discovery Education with "{username}" and "{password}"'))
-  When Login to the Discovery Education with "AT_Degi_Teacher13" and "disc0verme"
+#@@when(parsers.parse('Login to the Education Tech with "{username}" and "{password}"'))
+  When Login to the Education Tech with "username" and "password"
   Then Verify the Educator lands on the Homepage
 #@when(parsers.parse('Click on Profile and Click on "{option}" button'))
   When Click on Profile and Click on "Sign Out" button
