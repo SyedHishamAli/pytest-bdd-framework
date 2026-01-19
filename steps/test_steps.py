@@ -10,9 +10,9 @@ from steps.locators import DegiLocators
 
 scenarios('../features/VerifyAssignScheduleToAndConfirmationFromSearchLoggedInUser.feature')
 
-@given('Navigate to the Discovery Education')
+@given('Navigate to the Education Tech')
 def navigate_to_the_discovery_education(browser):
-    browser.get("https://app.discoveryeducation.com/")
+    browser.get("URL")
 
 @when('Click on the Educator Button')
 def click_on_the_educator_button(browser):
