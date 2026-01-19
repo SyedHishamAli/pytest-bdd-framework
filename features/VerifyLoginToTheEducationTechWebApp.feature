@@ -3,7 +3,7 @@ Feature: Login to Education Tech
     Given Navigate to the Education Tech
     When Click on the Educator Button
 
-Scenario: Login to the Discovery Education as a Teacher
+Scenario: Login to the Ed-Tech Web App as Trainer
 
 #@@when(parsers.parse('Login to the Education Tech with "{username}" and "{password}"'))
   When Login to the Education Tech with "username" and "password"
